@@ -8,11 +8,21 @@
 body {
   font-family: 'Times New Roman', Times, serif;
 }
+
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #FE6900;
   color: white;
   margin-bottom: 50px;
   height: 80px;
+  z-index: 999;
+}
+
+footer {
+  background-color: #1A1A1A;
+  color: white;
 }
 
 h5 {
@@ -36,12 +46,12 @@ img {
 
 
 
-.debug {
+/* .debug {
   background-color: rgba(255, 0, 0, 0.2);
   border: 1px solid black;
   min-width: 50px;
   min-height: 30px;
-}
+} */
 
 /* .debugcard {
   background-color: rgba(255, 0, 0, 0.2);
@@ -80,7 +90,7 @@ header .containers {
   padding: 7px;
 }
 
-header div.col a{
+div.col a{
   text-decoration: none;
   text-transform: none;
   color: white;
@@ -88,7 +98,7 @@ header div.col a{
   padding: 3px;
 }
 
-header div.col ul li{
+div.col ul li{
   display: inline-block;
 }
 
@@ -97,6 +107,10 @@ header img {
 }
 
 /**********MAIN********/
+
+main div.container {
+  margin: 130px auto 30px;
+}
 
 .card {
   position: relative;
@@ -174,4 +188,38 @@ header img {
 .prezzo-listino{
   font-size: 0.6rem;
   text-decoration: line-through;
+}
+
+/***********FOOTER*******/
+
+footer h5 {
+  margin-bottom: 0; 
+  font-size: ;
+  padding-top: 5p;
+ }
+
+footer h6{
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 10px;
+  
+  }
+
+footer nav {
+    line-height: 5px;
+}
+
+nav.tag ul li {
+  padding: 0px;
+}
+
+footer .containers {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1044px;
+  height: 80px;
+  padding: 7px;
 }
