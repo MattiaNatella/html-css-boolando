@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+margin-bottom: 0;
+  
+
+}
+h6 {
+  font-size: 0.5rem;
+  font-weight: 400;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/***********UTILITY**********/
+
+
+/* .debug {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid black;
+  min-height: 50px;
+} */
+
+/* .debugcard {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid black;
+  min-width: 40px;
+  min-height: 10px;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 1044px;
+}
+
+.card {
+  position: relative;
+  margin: 7px;
+  cursor: pointer;
+  width: 330px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: white;
+  font-size: 1.7rem;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+
+}
+
+
+.tag-scont {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  color: white;
+  background-color: red;
+  padding: 5px 7px;
+}
+
+.tag-sost {
+  position: absolute;
+  color: white;
+  bottom: 80px;
+  left: 55px;
+  background-color: green;
+  padding: 5px 7px;
+
+}
+
+.tag-sost.solo {
+  bottom: 80px;
+  left: 0px;
+
+}
+
+
+
+.prezzo-scontato{
+  font-size: 0.6rem;
+  color: red;
+  font-weight: bold;
+}
+
+.prezzo-listino{
+  font-size: 0.6rem;
+  text-decoration: line-through;
+}
