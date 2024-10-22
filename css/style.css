@@ -7,6 +7,10 @@
 body {
   font-family: 'Times New Roman', Times, serif;
 }
+header {
+  background-color: #FE6900;
+  height: 80px;
+}
 
 h5 {
 margin-bottom: 0;
@@ -55,6 +59,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
   margin: 50px auto;
   max-width: 1044px;
 }
@@ -67,16 +72,17 @@ img {
   cursor: pointer;
   width: 330px;
 }
-
-
-div.back-image {
-  position: absolute;
-  left: 335px;
-  width: 330px;
-  height: 480px;
-
+.img2 {
+  display: none;
 }
 
+.card:hover .img1 {
+  display:none;
+}
+
+.card:hover .img2 {
+  display:block;
+}
 
 
 .badge {
@@ -90,6 +96,7 @@ div.back-image {
   text-align: center;
   line-height: 40px;
   vertical-align: middle;
+  z-index: 99;
 
 }
 
