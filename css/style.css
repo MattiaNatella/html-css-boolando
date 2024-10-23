@@ -103,7 +103,7 @@ div.col ul li{
 }
 
 header img {
-  width: 100px;
+  width: 150px;
 }
 
 /**********MAIN********/
@@ -116,7 +116,7 @@ main div.container {
   position: relative;
   margin: 7px;
   cursor: pointer;
-  width: 330px;
+  width: 330px; /*per mantenere il numero di colonne anche se restringiamo la pagina occorre mettere la larghezza in percentuale*/
 }
 .img2 {
   display: none;
